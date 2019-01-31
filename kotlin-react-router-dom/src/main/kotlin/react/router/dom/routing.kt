@@ -76,6 +76,7 @@ external interface RouteResultLocation {
     var hash: String
     var pathname: String
     var search: String
+    var key: Any
 }
 
 external interface RouteResultMatch<T : RProps> {
